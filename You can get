@@ -1,0 +1,43 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostzx64/star/refs/heads/main/LIBRARY%20AZUL"))()
+
+local Window = redzlib:MakeWindow({
+    Title = "loading",
+    SubTitle = "choice your acess",
+    SaveFolder = "ConfigFolder"
+})
+
+Window:AddMinimizeButton({
+    Button = { Image = "rbxassetid://13", BackgroundTransparency = 7 },
+    Corner = { CornerRadius = UDim.new(0, 8) },
+})
+
+-- Aba Home
+local Tab1 = Window:MakeTab({ "Home", "rbxassetid://10723415903" })
+
+local Paragraph = Tab1:AddParagraph({"Studio Anexed", "obrigado por ler"})
+
+local Paragraph = Tab1:AddParagraph({"Num Cumpensa OWNER", "maioria dos scripts meu"})
+
+local Paragraph = Tab1:AddParagraph({"Dailly <Tester", "nÃ£o usou exexutor mais ajudou em testes"})
+
+local Paragraph = Tab1:AddParagraph({"Jao Owner do Gumball Hub", "Co Owener Obrigado Alias."})
+
+local Paragraph = Tab1:AddParagraph({"so para os Parceiros Nosso", "SCRIPT CONFIDENCIAL"})
+
+local Section = Tab1:AddSection({"Outros / Tipos"})
+
+  local Dialog = Window:Dialog({
+    Title = "SELECT LANGUAGE",
+    Text = "choice 1 ",
+    Options = {
+      {"PT brasil", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Cat558-uz/Osbdoidk/refs/heads/main/obfuscated_script-1748572208108.lua.txt"))()
+      end},
+      {"English", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Cat558-uz/Ttt/refs/heads/main/obfuscated_script-1748646514977.lua.txt"))()
+      end},
+      {"lite", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Cat558-uz/R/refs/heads/main/obfuscated_script-1748987770906.lua.txt"))()
+      end}
+    }
+  })
